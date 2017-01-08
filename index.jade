@@ -1,0 +1,128 @@
+extends layout
+
+block content
+	div.nav_bar_fixed
+		h1.title 
+			a(href='#parallax_section') ABHINANDAN SHARMA
+		ul.nav_list
+			li
+				a(href='#about_me_section') ABOUT ME &nbsp;&nbsp;|
+			li 
+				a(href='#resume_section') RESUME &nbsp;&nbsp;|
+			li 
+				a(href='#project_section') PROJECTS &nbsp;&nbsp;|
+			li 
+				a(href='#contact_section') CONTACT
+	img(src="images/background3.jpg", id="heading_image")
+	div.parallax_effect#parallax_section
+		div#title_box
+			div(id='title_typing_effect')
+				div 
+					span.line_init >
+					span(class="line_content typing_effect", data-string="Hey There!")
+				div
+					span.line_init >
+					span(class="line_content typing_effect", data-string="Welcome to my page")
+				div 
+					span.line_init >
+					span(class="line_content typing_effect", data-string="I am Abhinandan :)")
+				div 
+					span.line_init >
+					span(class="line_content typing_effect", data-string="Want to learn what I do?")
+			div#see_more_button
+				div#see_more_button_text
+					a(href='#about_me_section') See More >
+
+	div.about_me#about_me_section
+		div.about_me_title
+			span ABOUT ME
+		div.line
+		div.about_me_content
+			div.about_me_pre_content 
+				span.first_letter A
+				span hoy! My name is Abhinandan Sharma. I was born and raised in Kurukshetra.
+
+			div.about_me_middle_content
+				span  Currently I am a final year undergraduate student of Information Technology(IT) at National Institute of Technology, Kurukshetra. I am passionate about learning new stuff. I have been invloved in competitve programming for over 2 years now. Apart from competitve programming, I have tried my hands on Android development and web development.
+			div.about_me_footer
+				span Please peruse 
+				a(href='#project_section') my work 
+				span for past projects,my 
+				a(href='#resume_section') CV 
+				span for more information.
+				span If you have any questions, feel free to 
+				a(href='#contact_section') contact me.
+
+	div.resume#resume_section
+		div.resume_block
+			div.resume_block_content
+				span Take a look at my Resume
+			div.line
+			div.resume_button
+				a(href='https://drive.google.com/open?id=0B2FzGW7WNEqfaS1vbndvb0ZXalU', target='_blank') View here
+
+	div.work_and_experiences#project_section
+		div.work_ex_title
+			span Work experience & Projects
+		div.line
+		div.list_of_projects
+			div.project
+				div.project_logo
+					img(src='images/google_logo.png', id="google_logo")
+				div.project_description
+					div.project_designation
+						span SDE Intern, Google India
+					div.project_duration
+						span May 16 - Aug 16 (summer 2016)
+					span Worked with the Google Apps Developer Platform Team and provided support for external SOAP APIs to Google Apps Script.
+			div.project
+				div.project_logo
+					img(src='images/code_assist_logo.png', id="code_assist_logo")
+				div.project_description
+					div.project_designation
+						span Chrome extension for Competitve programmers
+					div.project_duration
+						span Feb 16 - Mar 16
+					span A chrome extension that notifies about newly added algorithmic contests and assists user in finding submitted solutions to problems on various online judges. Uses jQuery and chrome rich notifications.
+			div.project
+				div.project_logo
+					img(src='images/quote_it_logo.png', id="quote_it_logo")
+				div.project_description
+					div.project_designation
+						span Quote it-Android utility application | 
+						a(href='https://play.google.com/store/apps/details?id=com.firstApp.abhinandan.quoteit&hl=en', target="_blank") Google Play Store
+					div.project_duration
+						span Sep 16 - Oct 16
+					span An android application published on Google play store that allows users to read and share quotes categorized by genre. The application utilizes material design to provide smooth and beautiful user interface.
+			div.project
+				div.project_logo
+					img(src='images/minesweeper_logo.png', id="mineSweeper_logo")
+				div.project_description
+					div.project_designation
+						span Android based logical game | 
+						a(href='https://github.com/return19/CitySweep', target="_blank") Github
+					div.project_duration
+						span Feb 15 - Mar 15 (Techspardha 2015)
+					span A modified version of the classical minesweeper allowing multiple users to play and compete over Bluetooth. Several other features were added in both single-player and multi-player mods. Presented the project and won 2nd rank at Techspardha 15, college level technical fest.
+
+	div.footer
+		div.contact_block#contact_section
+			div.contact_title
+				span Contact
+			div.line
+			div.contact_content
+				div.contact_statement
+					span Please feel free to contact me for bugs or hugs
+				div.contact_info
+					div.contact_num
+						span Phone No. : +91-9996999065
+					div.contact_email
+						span Email Id : abhinandan1941996@gmail.com
+				div.contact_social_links
+					div.contact_social_container
+						div.contact_profile_image_links
+							<a href='http://www.linkedin.com/in/return19' target="_blank"> <img src='images/linkedin_logo.png', id="linkedin_logo"/></a>
+
+							<a href='https://github.com/return19/' target="_blank"><img src='images/GitHub_logo.png', id="github_logo"/></a>
+							
+							<a href='https://www.facebook.com/abhinandan.sharma.9210' target="_blank"><img src='images/facebook_logo1.png', id="facebook_logo"/></a>

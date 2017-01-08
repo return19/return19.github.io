@@ -1,0 +1,332 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #00b7ff;
+}
+.nav_bar_fixed {
+  position: fixed;
+  z-index: 1;
+  top: 0%;
+  width: 100%;
+  height: 8%;
+  background-color: #000;
+  opacity: 0.6;
+}
+.nav_bar_fixed .title {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  margin-left: 5%;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+}
+.nav_bar_fixed .title a {
+  text-decoration: none;
+  color: #fff;
+}
+.nav_bar_fixed .nav_list {
+  position: relative;
+  left: 30%;
+  display: inline-block;
+}
+.nav_bar_fixed .nav_list li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.nav_bar_fixed .nav_list li a {
+  text-decoration: none;
+  color: #fff;
+}
+#heading_image {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+  width: 100%;
+  opacity: 0.8;
+}
+.parallax_effect {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.parallax_effect #title_box {
+  position: relative;
+  margin: auto;
+  top: 30%;
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 2.4em;
+}
+.parallax_effect #title_box #title_typing_effect {
+  padding: 30px;
+  background-color: #000;
+  opacity: 0.6;
+}
+.parallax_effect #title_box #title_typing_effect span.line_init {
+  color: #f00;
+  margin-right: 10px;
+}
+.parallax_effect #title_box #title_typing_effect span.line_content {
+  color: #ff0;
+}
+.parallax_effect #title_box #see_more_button {
+  margin-top: 24%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  height: 50px;
+  background-color: #222;
+  opacity: 0;
+}
+.parallax_effect #title_box #see_more_button #see_more_button_text {
+  text-align: center;
+  font-size: 0.4em;
+  padding: 12px 10px 10px 10px;
+}
+.parallax_effect #title_box #see_more_button #see_more_button_text a {
+  text-decoration: none;
+  color: #fff;
+}
+.about_me {
+  position: relative;
+  width: 100%;
+  height: 70%;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.about_me .about_me_title {
+  position: relative;
+  text-align: center;
+  font-size: 2.4em;
+  color: #222;
+  padding: 40px;
+}
+.about_me .line {
+  position: relative;
+  width: 10%;
+  margin: auto;
+  height: 2px;
+  background-color: #222;
+}
+.about_me .about_me_content {
+  font-family: sans-serif;
+  position: relative;
+  text-align: justify;
+  padding: 40px;
+  width: 60%;
+  margin: auto;
+  font-size: 1.15em;
+}
+.about_me .about_me_content .first_letter {
+  font-size: 2em;
+}
+.about_me .about_me_content .about_me_pre_content {
+  padding: 10px;
+}
+.about_me .about_me_content .about_me_middle_content {
+  padding: 10px;
+}
+.about_me .about_me_content .about_me_footer {
+  padding: 10px;
+}
+.about_me .about_me_content a {
+  text-decoration: none;
+  color: #24446e;
+}
+.resume {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  background-color: #222;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.resume .resume_block {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  margin: auto;
+}
+.resume .resume_block .resume_block_content {
+  font-size: 2.4em;
+  text-align: center;
+  padding: 40px;
+}
+.resume .resume_block .line {
+  position: relative;
+  width: 10%;
+  margin: auto;
+  height: 2px;
+  background-color: #fff;
+}
+.resume .resume_block .resume_button {
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  margin: auto;
+  padding: 5px;
+  top: 30%;
+  width: 20%;
+  height: 25%;
+  border-style: solid;
+  border-width: 1px;
+}
+.resume .resume_block .resume_button a {
+  text-decoration: none;
+  color: #fff;
+}
+.work_and_experiences {
+  position: relative;
+  width: 100%;
+  height: 170%;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.work_and_experiences .work_ex_title {
+  position: relative;
+  font-size: 2.4em;
+  text-align: center;
+  padding: 40px;
+  color: #222;
+}
+.work_and_experiences .line {
+  position: relative;
+  width: 10%;
+  margin: auto;
+  height: 2px;
+  background-color: #222;
+}
+.work_and_experiences .list_of_projects {
+  position: relative;
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  top: 5%;
+}
+.work_and_experiences .list_of_projects .project {
+  display: inline-block;
+  padding: 2%;
+}
+.work_and_experiences .list_of_projects .project .project_logo {
+  margin: 15px;
+  display: inline-block;
+  width: 20%;
+}
+.work_and_experiences .list_of_projects .project .project_logo #google_logo {
+  height: 10%;
+  width: 100%;
+}
+.work_and_experiences .list_of_projects .project .project_logo #mineSweeper_logo {
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: 60%;
+  margin-top: 20px;
+}
+.work_and_experiences .list_of_projects .project .project_logo #code_assist_logo {
+  display: block;
+  width: 150%;
+  margin-left: -30px;
+  margin-top: 20px;
+}
+.work_and_experiences .list_of_projects .project .project_logo #quote_it_logo {
+  width: 100%;
+  margin-top: -20px;
+}
+.work_and_experiences .list_of_projects .project .project_description {
+  position: relative;
+  width: 60%;
+  float: right;
+  margin: 15px;
+  text-align: justify;
+  font-size: 1.15em;
+  display: inline-block;
+  font-family: sans-serif;
+}
+.work_and_experiences .list_of_projects .project .project_description .project_designation {
+  font-family: 'Montserrat', sans-serif;
+}
+.work_and_experiences .list_of_projects .project .project_description .project_designation a {
+  text-decoration: none;
+  color: #24446e;
+}
+.work_and_experiences .list_of_projects .project .project_description .project_duration {
+  font-family: sans-serif;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  background-color: #222;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.footer .contact_block .contact_title {
+  position: relative;
+  font-size: 2.4em;
+  text-align: center;
+  padding: 40px;
+}
+.footer .contact_block .line {
+  position: relative;
+  width: 5%;
+  margin: auto;
+  height: 2px;
+  background-color: #fff;
+}
+.footer .contact_block .contact_content {
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+.footer .contact_block .contact_content .contact_statement {
+  text-align: center;
+  padding: 5%;
+}
+.footer .contact_block .contact_content .contact_info {
+  padding: 2%;
+  text-align: center;
+}
+.footer .contact_block .contact_content .contact_social_links {
+  position: relative;
+  text-align: center;
+}
+.footer .contact_block .contact_content .contact_social_links .contact_social_container {
+  display: inline;
+}
+.footer .contact_block .contact_content .contact_social_links .contact_social_container .contact_profile_image_links {
+  display: inline-block;
+  width: 50%;
+  padding: 2%;
+}
+.footer .contact_block .contact_content .contact_social_links .contact_social_container .contact_profile_image_links #linkedin_logo {
+  width: 15%;
+  height: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.footer .contact_block .contact_content .contact_social_links .contact_social_container .contact_profile_image_links #github_logo {
+  width: 15%;
+  height: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.footer .contact_block .contact_content .contact_social_links .contact_social_container .contact_profile_image_links #facebook_logo {
+  width: 15%;
+  height: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+}

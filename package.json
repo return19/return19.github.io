@@ -1,0 +1,27 @@
+{
+  "name": "abhinandan",
+  "version": "1.0.0",
+  "description": "My personal page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build-jade && npm run build-stylus",
+    "build-stylus": "stylus stylesheets/style.styl -o stylesheets",
+    "build-jade": "jade index.jade -o ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/return19/return19.github.io.git"
+  },
+  "author": "Abhinandan <abhinandan1941996@gmail.com> (http://return19.github.io/)",
+  "bugs": {
+    "url": "https://github.com/return19/return19.github.io/issues"
+  },
+  "homepage": "https://github.com/return19/return19.github.io",
+  "devDependencies": {
+    "jade": "~1.3.0",
+    "stylus": "0.42.3"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}
