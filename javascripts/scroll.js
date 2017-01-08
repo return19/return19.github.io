@@ -15,7 +15,7 @@ $(document).ready(function() {
 	// 	scrollSmooth(target);
 	// });
 
-	$('a[href*=\\#]').click( function(event){
+	$('a[href*=\\#]:not([href=\\#])').click( function(event){
 
 		var target = $(this).attr('href');
 
