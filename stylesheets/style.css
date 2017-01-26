@@ -366,6 +366,9 @@ a {
   .textFirstLetter {
     font-size: 5vw;
   }
+  .parallax_effect #title_box {
+    width: 80%;
+  }
   .about_me {
     height: 50%;
   }
@@ -403,6 +406,9 @@ a {
   }
   .textFirstLetter {
     font-size: 5vw;
+  }
+  .parallax_effect #title_box {
+    width: 80%;
   }
   .about_me {
     height: 70%;
