@@ -55,6 +55,39 @@ a
 			a
 				text-decoration: none
 				color: #fff
+	.nav_drawer
+		position: absolute
+		right: 5%
+		height: 100%
+		display: inline-block
+		float: right
+		color: #fff
+		.nav_drawer_image
+			display:none
+			height: 50%
+			position: relative
+.nav_bar_mobile
+	position: fixed
+	display: none
+	height: 0
+	top: 8%
+	width: 100%
+	padding: 1vh
+	transition: height 0.5s
+	z-index: 1
+	background-color: black
+	opacity: 0.6
+	overflow-y: hidden;
+	font-family: 'Montserrat', sans-serif;
+	.nav_list
+		text-align: center
+		list-style-type: none
+		a
+			text-decoration: none
+			color: #fff
+			display: block
+		li
+			padding: 1vh
 #heading_image
 	position: fixed
 	top: 0%
@@ -335,6 +368,16 @@ a
 		font-size: headingSize320
 	.textFirstLetter
 		font-size: firstLetter320
+	.nav_bar_fixed
+		.title
+			font-size: headingSize320
+		.nav_list
+			display:none
+		.nav_drawer
+			.nav_drawer_image
+				display: block
+	.nav_bar_mobile
+		display: block
 	.parallax_effect
 		#title_box
 			width: 80%
@@ -366,6 +409,16 @@ a
 		font-size: headingSize320
 	.textFirstLetter
 		font-size: firstLetter320
+	.nav_bar_fixed
+		.title
+			font-size: headingSize320
+		.nav_list
+			display:none
+		.nav_drawer
+			.nav_drawer_image
+				display: block
+	.nav_bar_mobile
+		display: block
 	.parallax_effect
 		#title_box
 			width: 80%
