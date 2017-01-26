@@ -267,12 +267,12 @@ a {
 }
 .footer .contact_block {
   position: relative;
-  height: 90%;
+  height: 85%;
 }
 .footer .contact_block .contact_title {
   position: relative;
   text-align: center;
-  padding: 40px;
+  padding: 2vh;
 }
 .footer .contact_block .line {
   position: relative;
@@ -331,7 +331,6 @@ a {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  bottom: 0;
 }
 .footer .ending_remarks #heart_image {
   width: 2%;
@@ -424,6 +423,6 @@ a {
     margin-left: -10px;
   }
   .footer {
-    height: 40%;
+    height: 35%;
   }
 }
