@@ -2,9 +2,9 @@ extends layout
 
 block content
 	div.nav_bar_fixed
-		h1.title 
+		h1.title.textsizelarge
 			a(href='#parallax_section') ABHINANDAN SHARMA
-		ul.nav_list
+		ul.nav_list.textsizelarge
 			li
 				a(href='#about_me_section') ABOUT ME &nbsp;&nbsp;|
 			li 
@@ -15,7 +15,7 @@ block content
 				a(href='#contact_section') CONTACT
 	img(src="images/background3.jpg", id="heading_image")
 	div.parallax_effect#parallax_section
-		div#title_box
+		div#title_box.textheading
 			div(id='title_typing_effect')
 				div 
 					span.line_init >
@@ -30,16 +30,16 @@ block content
 					span.line_init >
 					span(class="line_content typing_effect", data-string="Want to learn what I do?")
 			div#see_more_button
-				div#see_more_button_text
+				div#see_more_button_text.textsize
 					a(href='#about_me_section') See More >
 
 	div.about_me#about_me_section
-		div.about_me_title
+		div.about_me_title.textheading
 			span ABOUT ME
 		div.line
-		div.about_me_content
+		div.about_me_content.textsize
 			div.about_me_pre_content 
-				span.first_letter A
+				span.first_letter.textFirstLetter A
 				span hoy! My name is Abhinandan Sharma. I was born and raised in Kurukshetra.
 
 			div.about_me_middle_content
@@ -55,62 +55,62 @@ block content
 
 	div.resume#resume_section
 		div.resume_block
-			div.resume_block_content
+			div.resume_block_content.textheading
 				span Take a look at my Resume
 			div.line
-			div.resume_button
+			div.resume_button.textheading
 				a(href='https://drive.google.com/open?id=0B2FzGW7WNEqfaS1vbndvb0ZXalU', target='_blank') View here
 
 	div.work_and_experiences#project_section
-		div.work_ex_title
+		div.work_ex_title.textheading
 			span Work experience & Projects
 		div.line
 		div.list_of_projects
 			div.project
 				div.project_logo
 					img(src='images/google_logo.png', id="google_logo")
-				div.project_description
+				div.project_description.textsize
 					div.project_designation
 						span SDE Intern, Google India
-					div.project_duration
+					div.project_duration.textsizesmall
 						span May 16 - Aug 16 (summer 2016)
 					span Worked with the Google Apps Developer Platform Team and provided support for external SOAP APIs to Google Apps Script.
 			div.project
 				div.project_logo
 					img(src='images/code_assist_logo.png', id="code_assist_logo")
-				div.project_description
+				div.project_description.textsize
 					div.project_designation
 						span Chrome extension for Competitve programmers
-					div.project_duration
+					div.project_duration.textsizesmall
 						span Feb 16 - Mar 16
 					span A chrome extension that notifies about newly added algorithmic contests and assists user in finding submitted solutions to problems on various online judges. Uses jQuery and chrome rich notifications.
 			div.project
 				div.project_logo
 					img(src='images/quote_it_logo.png', id="quote_it_logo")
-				div.project_description
+				div.project_description.textsize
 					div.project_designation
 						span Quote it-Android utility application | 
 						a(href='https://play.google.com/store/apps/details?id=com.firstApp.abhinandan.quoteit&hl=en', target="_blank") Google Play Store
-					div.project_duration
+					div.project_duration.textsizesmall
 						span Sep 16 - Oct 16
 					span An android application published on Google play store that allows users to read and share quotes categorized by genre. The application utilizes material design to provide smooth and beautiful user interface.
 			div.project
 				div.project_logo
 					img(src='images/minesweeper_logo.png', id="mineSweeper_logo")
-				div.project_description
+				div.project_description.textsize
 					div.project_designation
 						span Android based logical game | 
 						a(href='https://github.com/return19/CitySweep', target="_blank") Github
-					div.project_duration
+					div.project_duration.textsizesmall
 						span Feb 15 - Mar 15 (Techspardha 2015)
 					span A modified version of the classical minesweeper allowing multiple users to play and compete over Bluetooth. Several other features were added in both single-player and multi-player mods. Presented the project and won 2nd rank at Techspardha 15, college level technical fest.
 
 	div.footer
 		div.contact_block#contact_section
-			div.contact_title
+			div.contact_title.textheading
 				span Contact
 			div.line
-			div.contact_content
+			div.contact_content.textsize
 				div.contact_statement
 					span Please feel free to contact me for bugs or hugs
 				div.contact_info
@@ -127,7 +127,7 @@ block content
 							
 							<a href='https://www.facebook.com/abhinandan.sharma.9210' target="_blank"><img src='images/facebook_logo1.png', id="facebook_logo"/></a>
 
-		div.ending_remarks
+		div.ending_remarks.textsize
 			span Made with 
 			img(src='images/heart.png', id="heart_image")
 			span  by Abhinandan Sharma

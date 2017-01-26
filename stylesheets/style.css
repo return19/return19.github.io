@@ -25,7 +25,6 @@ a {
   margin-left: 5%;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.6vw;
 }
 .nav_bar_fixed .title a {
   text-decoration: none;
@@ -35,7 +34,6 @@ a {
   height: 100%;
   position: relative;
   float: right;
-  font-size: 1.6vw;
   display: inline-block;
   margin: 10px;
 }
@@ -71,7 +69,6 @@ a {
   width: 50%;
   font-family: 'Montserrat', sans-serif;
   color: #fff;
-  font-size: 2.4vw;
 }
 .parallax_effect #title_box #title_typing_effect {
   padding: 30px;
@@ -96,7 +93,6 @@ a {
 }
 .parallax_effect #title_box #see_more_button #see_more_button_text {
   text-align: center;
-  font-size: 1.15vw;
   padding: 12px 10px 10px 10px;
 }
 .parallax_effect #title_box #see_more_button #see_more_button_text a {
@@ -113,7 +109,6 @@ a {
 .about_me .about_me_title {
   position: relative;
   text-align: center;
-  font-size: 2.4vw;
   color: #222;
   padding: 40px;
 }
@@ -131,10 +126,6 @@ a {
   padding: 40px;
   width: 60%;
   margin: auto;
-  font-size: 1.15vw;
-}
-.about_me .about_me_content .first_letter {
-  font-size: 2vw;
 }
 .about_me .about_me_content .about_me_pre_content {
   padding: 10px;
@@ -164,7 +155,6 @@ a {
   margin: auto;
 }
 .resume .resume_block .resume_block_content {
-  font-size: 2.4vw;
   text-align: center;
   padding: 40px;
 }
@@ -178,7 +168,6 @@ a {
 .resume .resume_block .resume_button {
   position: relative;
   text-align: center;
-  font-size: 2vw;
   margin: auto;
   padding: 5px;
   top: 30%;
@@ -200,7 +189,6 @@ a {
 }
 .work_and_experiences .work_ex_title {
   position: relative;
-  font-size: 2.4vw;
   text-align: center;
   padding: 40px;
   color: #222;
@@ -255,7 +243,6 @@ a {
   float: right;
   margin: 15px;
   text-align: justify;
-  font-size: 1.15vw;
   display: inline-block;
   font-family: sans-serif;
 }
@@ -268,7 +255,6 @@ a {
 }
 .work_and_experiences .list_of_projects .project .project_description .project_duration {
   font-family: sans-serif;
-  font-size: 0.8vw;
   margin-bottom: 10px;
 }
 .footer {
@@ -285,7 +271,6 @@ a {
 }
 .footer .contact_block .contact_title {
   position: relative;
-  font-size: 2.4vw;
   text-align: center;
   padding: 40px;
 }
@@ -297,7 +282,6 @@ a {
   background-color: #fff;
 }
 .footer .contact_block .contact_content {
-  font-size: 1.15vw;
   position: relative;
   margin: auto;
   width: 50%;
@@ -341,7 +325,6 @@ a {
   margin-right: 2%;
 }
 .footer .ending_remarks {
-  font-size: 1.15vw;
   position: relative;
   width: 100%;
   height: 10%;
@@ -352,4 +335,51 @@ a {
 }
 .footer .ending_remarks #heart_image {
   width: 2%;
+}
+.textsize {
+  font-size: 1.15vw;
+}
+.textsizesmall {
+  font-size: 0.8vw;
+}
+.textsizelarge {
+  font-size: 1.6vw;
+}
+.textheading {
+  font-size: 2.4vw;
+}
+.textFirstLetter {
+  font-size: 2vw;
+}
+@media (max-device-width:320px) {
+  .textsize {
+    font-size: 2.8vw;
+  }
+  .textsizesmall {
+    font-size: 2vw;
+  }
+  .textsizelarge {
+    font-size: 2.8vw;
+  }
+  .textheading {
+    font-size: 3.8vw;
+  }
+  .textFirstLetter {
+    font-size: 5vw;
+  }
+  .about_me {
+    height: 90%;
+  }
+  .about_me .about_me_content {
+    width: 80%;
+  }
+  .work_and_experiences {
+    height: 170%;
+  }
+  .work_and_experiences .list_of_projects {
+    width: 100%;
+  }
+  .work_and_experiences .list_of_projects .project .project_logo #code_assist_logo {
+    margin-left: -10px;
+  }
 }
