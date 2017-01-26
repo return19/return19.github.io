@@ -406,18 +406,24 @@ a {
     font-size: 5vw;
   }
   .about_me {
-    height: 90%;
+    height: 70%;
   }
   .about_me .about_me_content {
     width: 80%;
   }
+  .resume {
+    height: 30%;
+  }
   .work_and_experiences {
-    height: 170%;
+    height: 140%;
   }
   .work_and_experiences .list_of_projects {
     width: 100%;
   }
   .work_and_experiences .list_of_projects .project .project_logo #code_assist_logo {
     margin-left: -10px;
+  }
+  .footer {
+    height: 40%;
   }
 }
