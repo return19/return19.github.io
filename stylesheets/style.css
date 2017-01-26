@@ -351,7 +351,45 @@ a {
 .textFirstLetter {
   font-size: 2vw;
 }
-@media (max-device-width:725px) {
+@media (max-device-width:725px) and (max-device-height:1285px) and (min-device-width:366px) {
+  .textsize {
+    font-size: 2.8vw;
+  }
+  .textsizesmall {
+    font-size: 2vw;
+  }
+  .textsizelarge {
+    font-size: 2.8vw;
+  }
+  .textheading {
+    font-size: 3.8vw;
+  }
+  .textFirstLetter {
+    font-size: 5vw;
+  }
+  .about_me {
+    height: 50%;
+  }
+  .about_me .about_me_content {
+    width: 80%;
+  }
+  .resume {
+    height: 20%;
+  }
+  .work_and_experiences {
+    height: 110%;
+  }
+  .work_and_experiences .list_of_projects {
+    width: 100%;
+  }
+  .work_and_experiences .list_of_projects .project .project_logo #code_assist_logo {
+    margin-left: -10px;
+  }
+  .footer {
+    height: 35%;
+  }
+}
+@media (max-device-width:365px) {
   .textsize {
     font-size: 2.8vw;
   }

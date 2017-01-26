@@ -325,7 +325,35 @@ a
 .textFirstLetter
 	font-size: firstLetter
 
-@media (max-device-width:725px)
+@media (max-device-width:725px) and (max-device-height:1285px) and (min-device-width:366px)
+	.textsize
+		font-size: textSize320
+	.textsizesmall
+		font-size: textSizeSmall320
+	.textsizelarge
+		font-size: textSizeLarge320
+	.textheading
+		font-size: headingSize320
+	.textFirstLetter
+		font-size: firstLetter320
+	.about_me
+		height: 50%
+		.about_me_content
+			width: 80%
+	.resume
+		height: 20%
+	.work_and_experiences
+		height: 110%
+		.list_of_projects
+			width: 100%
+			.project
+				.project_logo
+					#code_assist_logo
+						margin-left: -10px
+	.footer
+		height: 35%
+
+@media (max-device-width:365px)
 	.textsize
 		font-size: textSize320
 	.textsizesmall
